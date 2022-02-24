@@ -1,0 +1,133 @@
+.contact-container {
+  width: 100%;
+  position: relative;
+}
+
+.contact-container-top {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.contact-container-main {
+  width: 100%;
+  background-color: #fff;
+  background: url('../imgs/contact/contact.png') 18% 35% no-repeat;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  outline: none;
+}
+
+@media screen and (min-width: 1781px) {
+  .contact-container-main {
+    padding: 5% 10%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contact-we {
+    font-size: 24px;
+  }
+
+  .contact-main-right {
+    width: 40%;
+    height: 500px;
+    padding: 30px 40px;
+    background-color: #fff;
+    box-shadow: #ddd 0 0 15px 5px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1780px) {
+  .contact-container-main {
+    padding: 5% 10%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contact-we {
+    font-size: 24px;
+  }
+
+  .contact-main-right {
+    width: 40%;
+    height: 500px;
+    padding: 30px 40px;
+    background-color: #fff;
+    box-shadow: #ddd 0 0 15px 5px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .contact-container-main {
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contact-we {
+    font-size: 24px;
+  }
+
+  .contact-main-right {
+    width: 50%;
+    height: 500px;
+    padding: 30px 40px;
+    background-color: #fff;
+    box-shadow: #ddd 0 0 15px 5px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .contact-container-main {
+    padding: 5%;
+  }
+
+  .contact-we {
+    font-size: 24px;
+  }
+
+  .contact-main-left {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .contact-main-right {
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 30px 19px;
+    background-color: #fff;
+    box-shadow: #ddd 0 0 15px 5px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contact-container-main {
+    padding: 5%;
+  }
+
+  .contact-we {
+    font-size: 24px;
+  }
+
+  .contact-main-left {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .contact-main-right {
+    width: 95%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 30px 19px;
+    background-color: #fff;
+    /* box-shadow: #ddd 0 0 15px 5px; */
+  }
+}
